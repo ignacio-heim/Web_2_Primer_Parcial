@@ -1,0 +1,193 @@
+body {
+    background-color:#d1d1d19c;
+}
+
+.no-padding-right {
+    padding-right: 0;
+}
+
+.no-padding-left {
+    padding-left: 0;
+}
+
+.margin-top {
+    margin-top: 30px;
+}
+
+.margin-bottom-top {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.bg-color-blue {
+    background-color: #4280F5;
+}
+
+.padding-bottom {
+    padding-bottom: 20px;
+}
+
+.border-radius {
+    border-radius: 10px;
+}
+
+.width {
+    width: 95%;
+    margin: auto;
+}
+
+.text-decoration {
+    color: rgb(54, 54, 54);
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.bc-header-footer {
+    background-color: #98fdba;
+}
+
+.no-margin {
+    margin: 0px;
+}
+
+.wh-icono {
+    width: 30px;
+    height: 30px;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.padding-items {
+    padding: 15px;
+}
+
+.padding-top {
+    padding-top: 20px;
+}
+
+/*CONTACTO*/
+
+.container-contact {
+    display: flex;    
+    flex-direction: column;            
+    justify-content: space-evenly;
+    gap: 10px;
+    
+}
+
+.container-nombre-apellido {
+    display: flex;
+    flex-direction: row;
+    gap: 15px
+}
+
+.ccontainer-email-telefeno {
+    display: flex;
+    flex-direction: row;
+    gap: 15px
+}
+
+.item-form {
+    width: 100%;
+}
+
+.item-na {
+    width: 100%;
+}
+
+.item-but {
+    width: 30%;
+    margin: auto;
+}
+
+.item-form-text {
+    width: 100%;
+    height: 100px;
+}
+
+.margin-left-right-top {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.border {
+    border: 1px solid gray;
+}
+
+.underlined {
+    border-bottom: 1px solid black;
+}
+
+.container-contact {
+    margin-bottom: 15px;
+}
+
+.font-bold-size {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.item-form {
+    height: 30px;
+}
+
+.item-na {
+    margin-top: 10px;
+}
+
+.border-input {
+    border: none;
+    border-bottom: 2px solid #4280F5;
+    outline: none;
+}
+
+.border-text-area {
+    resize: none;
+    border-radius: 5px;
+    border: 2px solid #4280F5;
+    
+}
+
+.margin-top {
+    margin-top: 10px;
+}
+
+.button-enviar {
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    border: 5px;
+    background-color: #4280F5;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.button-enviar:hover {
+    background-color: #98fdba;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    
+}
+
+.center-contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*DATOS RESERVA*/
+
+.wh-images{
+    width: 500px;
+    height: 300px;
+}
